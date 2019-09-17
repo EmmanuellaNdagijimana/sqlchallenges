@@ -1,3 +1,4 @@
-DELETE
+INSERT INTO hilight
+SELECT starid
  FROM stars
-  WHERE starid < 10000;
+WHERE starid > 10000 AND starid < 11000 ;
